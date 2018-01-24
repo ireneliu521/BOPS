@@ -147,7 +147,7 @@ return$Month<-ifelse(return$month=="JAN",1,
 hist(return$net_purchase_amount)
 ```
 
-![](Irene_files/figure-markdown_github/unnamed-chunk-1-1.png)
+Please refer to the Net Purchase Amount histogram.
 
 ``` r
 hist(log(return$net_purchase_amount)) #use log
@@ -530,7 +530,7 @@ library(usdm)
     ## 
     ##     vif
 
-![](Irene_files/figure-markdown_github/unnamed-chunk-1-2.png)
+Please refer to the Log of Net Purchase Amount Histogram.
 
 ``` r
 df<-data.frame(return$net_purchase_amount,return$gender,return$age_band,return$est_income_code,return$BOPS,return$Month)
@@ -1306,14 +1306,14 @@ monthly_sales=newdata$monthly_sales
 hist(monthly_sales)
 ```
 
-![](Irene_files/figure-markdown_github/unnamed-chunk-2-1.png)
+Please refer to the Monthly Sales Histogram.
 
 ``` r
 log_sales=log(monthly_sales)
 hist(log_sales) ##normal
 ```
 
-![](Irene_files/figure-markdown_github/unnamed-chunk-2-2.png)
+Please refer to the Log of Monthly Sales Histogram.
 
 ``` r
 store=as.factor(newdata$store_number)
@@ -1370,7 +1370,7 @@ plot(GK_correlation_matrix,diagSize = 0.8,diagColor = "black",
 backgroundColor = "white",colorPlot=FALSE)
 ```
 
-![](Irene_files/figure-markdown_github/unnamed-chunk-2-3.png)
+Please refer to the Correlation Chart.
 
 ``` r
 # OLS model
